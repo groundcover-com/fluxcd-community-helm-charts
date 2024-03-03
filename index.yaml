@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  flux2-notification:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Chore]: Update App Version to upstream 2.2.3"
+    apiVersion: v2
+    appVersion: 2.2.3
+    created: "2024-03-03T14:03:29.407212978Z"
+    description: A Helm chart for flux2 alerts and the needed providers and secrets
+    digest: 9aa194a9b4ecfebde9c8bce41db84c778480fe975d77d1056b8bb73af41357ce
+    name: flux2-notification
+    sources:
+    - https://github.com/fluxcd-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/maximveksler/fluxcd-community-helm-charts/releases/download/flux2-notification-1.14.3/flux2-notification-1.14.3.tgz
+    version: 1.14.3
+generated: "2024-03-03T14:03:29.407222796Z"
